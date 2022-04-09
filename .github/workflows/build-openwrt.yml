@@ -7,7 +7,7 @@
 # https://github.com/P3TERX/Actions-OpenWrt
 # Description: Build OpenWrt using GitHub Actions
 #
-UPLOAD_RELEASE: true
+
 name: Build ImmortalWrt
 
 on:
@@ -29,8 +29,8 @@ env:
   UPLOAD_BIN_DIR: false
   UPLOAD_FIRMWARE: true
   UPLOAD_COWTRANSFER: false
-  UPLOAD_WETRANSFER: false
-  UPLOAD_RELEASE: false
+  UPLOAD_WETRANSFER: true 
+  UPLOAD_RELEASE: true
   TZ: Asia/Shanghai
 
 jobs:
